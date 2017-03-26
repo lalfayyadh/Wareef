@@ -772,6 +772,11 @@ position: absolute;
   margin-right: 10px;
 }
 
+.f-socials {
+    font-size: 3em;
+    padding: 0px;
+}
+
 /**responsive style for template**/
 @media (max-width: 768px) {
   .navbar-nav {
