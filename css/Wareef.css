@@ -277,6 +277,14 @@ Buttons style
     display: block;
 }
 
+.no-quote::before {
+    content:""
+}
+
+.no-quote::after {
+    content:""
+}
+
 .content p {
   font-size: 1.5em
 }
@@ -289,9 +297,25 @@ Buttons style
 }
 
 .section-title::before {
-  content: url(../images/wareef-leaf-left.png);
-  margin: 10px;
-  vertical-align: sub;
+    /* content: url(../images/wareef-leaf-left.png); */
+    /* margin-bottom: 25px; */
+    /* vertical-align: sub; */
+    /* display: block; */
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #717e7e;
+    display: block;
+    margin: 25px auto;
+}
+
+.section-title::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #0db1ab;
+    display: block;
+    margin: 25px auto;
 }
 
 /*.section-title::after {
@@ -351,7 +375,7 @@ Buttons style
   .col-1-2 {
     width: 100%;
   }
-  
+
 }
 
 /*
