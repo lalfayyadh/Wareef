@@ -253,11 +253,105 @@ Buttons style
 .welcome-message .quran {
     font-size: 2em;
     line-height: 1.5em;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 .welcome-message i {
     font-size: 6em;
+}
+
+.quote {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.quote::before {
+    font-family: "FontAwesome";
+    content: "\f10e";    
+    display: block;
+}
+
+.quote::after {
+    font-family: "FontAwesome";
+    content: "\f10d";
+    display: block;
+}
+
+.content p {
+  font-size: 1.5em
+}
+
+.section-title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #0db1ab;
+    font-weight: 800;
+}
+
+.section-title::before {
+  content: url(../images/wareef-leaf-left.png);
+  margin: 10px;
+  vertical-align: sub;
+}
+
+/*.section-title::after {
+  content: url(../images/wareef-leaf-right.png);
+  margin: 10px;
+  display: block;
+}*/
+
+.members {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1-5 {
+  width: 20%;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.member {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.member img {
+  width:200px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.member .name {
+  font-size: 1em;
+  font-weight: 800;
+  color: #0db1ab
+}
+
+.member .title {
+  font-size: .9em;
+  font-weight: 800;
+  color: #717e7e
+}
+
+@media screen and (max-width:1200px) {
+  .col-1-5 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:475px) {
+  .col-1-5 {
+    width: 100%;
+  }
+
+  .col-1-2 {
+    width: 100%;
+  }
+  
 }
 
 /*
