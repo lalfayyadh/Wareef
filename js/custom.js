@@ -5,8 +5,8 @@ $(document).ready(function () {
         // jQuery('.pulse').delay(500).fadeOut();
         // jQuery('.preloader').delay(1000).fadeOut('slow');
 
-          jQuery('#boxOne').delay(2000).animate({top: '100vh'}, 5000);
-          jQuery('#boxTwo').delay(2000).animate({bottom: '100vh'}, 5000);
+          jQuery('#boxOne').delay(2000).animate({top: '100vh'}, 3000);
+          jQuery('#boxTwo').delay(2000).animate({bottom: '100vh'}, 3000);
           jQuery('#boxOne').fadeOut();
           
                 
