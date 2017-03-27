@@ -57,6 +57,10 @@
   background: #f5f5f5 !important;
 }
 
+.pattern-bg {
+    background-image: url(../images/cubes.png) !important;
+}
+
 body, html {
   height: 100%;
 }
