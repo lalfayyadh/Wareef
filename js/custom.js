@@ -2,8 +2,15 @@ $(document).ready(function () {
     'use strict';
     /*----------- Preloader -----------*/
     jQuery(window).load(function () {
-        jQuery('.pulse').delay(500).fadeOut();
-        jQuery('.preloader').delay(1000).fadeOut('slow');
+        // jQuery('.pulse').delay(500).fadeOut();
+        // jQuery('.preloader').delay(1000).fadeOut('slow');
+
+          jQuery('#boxOne').delay(2000).animate({top: '100vh'}, 5000);
+          jQuery('#boxTwo').delay(2000).animate({bottom: '100vh'}, 5000);
+          jQuery('#boxOne').fadeOut();
+          
+                
+
     });
     $(window).resize(function () {
         $(".navbar-collapse").css({maxHeight: $(window).height() - $(".navbar-header").height() + "px"});
