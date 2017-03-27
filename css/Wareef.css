@@ -703,6 +703,8 @@ Parallax backgrounds
   background-attachment: fixed !important;
   background-position: 50% 50% !important;
   position: relative;
+  background-blend-mode: darken!important;
+  background-color: rgba(0, 0, 0, 0.5)!important;
 }
 .parallax-bg:before {
   content: "";
