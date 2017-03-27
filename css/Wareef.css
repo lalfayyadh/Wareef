@@ -289,6 +289,11 @@ Buttons style
   font-size: 1.5em
 }
 
+.content ul li {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
 .section-title {
     font-size: 2.5em;
     text-align: center;
