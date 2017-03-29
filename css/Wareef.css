@@ -1,5 +1,4 @@
 ﻿/**google font**/
-@import url(//fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800";
 
 /**direction**/
@@ -85,10 +84,12 @@ a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover, a:focus {
   text-decoration: none;
   outline: 0 !important;
   color: #0db1ab;
+  color: #717e7e
 }
 
 button {
@@ -261,6 +262,10 @@ Buttons style
 
 .welcome-message i {
     font-size: 6em;
+}
+
+.welcome-message img {
+    width: 215px;
 }
 
 .welcome-message .disclaimer {
@@ -812,6 +817,14 @@ Parallax backgrounds
 }
 .contact-info p i {
   margin-right: 10px;
+}
+
+.contact-info a {
+    color: #0db1ab;
+}
+
+.contact-info a:hover {
+    color: #00635f;
 }
 
 .f-socials {
