@@ -184,6 +184,26 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
+.donation-card {
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.donation-card img {
+  width:100%;
+  max-width: 350px;
+}
+
+.donation-card p {
+  margin: 0;
+  color: #000;
+}
+
 /*
 Buttons style
 */
